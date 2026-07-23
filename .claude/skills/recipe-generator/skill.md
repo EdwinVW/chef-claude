@@ -114,7 +114,7 @@ N. ...
 Sla elk recept op als `XX-kebab-case-naam.md` in `recepten-<maaltijdtype>/` (oplopend volgnummer, aansluitend op het hoogste bestaande nummer), en voeg het toe aan `recepten-<maaltijdtype>/00-overzicht.md` in de vorm:
 
 ```
-| XX | [Naam](bestandsnaam.md) | [Hoofdeiwit] | [Dieet info] | [Labels]
+| XX | [Naam](bestandsnaam.md) | [Hoofdeiwit] | [Dieet info (waarom past het in het dieet)] | [Labels]
 ```
 
 ### Fase 5 — Kwaliteitscheck per recept
