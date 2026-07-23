@@ -62,9 +62,10 @@ Dit bestand is de bron van waarheid voor alle volgende stappen en toekomstige se
 
 Voor elk maaltijdtype:
 
-1. Stel op basis van het profiel een voorstel-ingrediëntenlijst op, gegroepeerd per categorie (bv. Vlees, Vis, Groenten, Fruit, Granen, Peulvruchten, Zuivel, Noten/Zaden, Kruiden, Oliën/Sauzen). Neem alleen ingrediënten op die passen bij de dieetregels en verkrijgbaar zijn bij de opgegeven supermarkt.
-2. Toon de volledige lijst aan de gebruiker en vraag expliciet om aanpassingen: items toevoegen, verwijderen of vervangen.
-3. Verwerk de aanpassingen en sla de definitieve lijst op als `ingredienten-<maaltijdtype>.md` (bv. `ingredienten-diner.md`, `ingredienten-ontbijt.md`).
+1. Stel op basis van het profiel een voorstel-ingrediëntenlijst op, gegroepeerd per categorie (bv. Vlees, Vis, Groenten, Fruit, Granen, Peulvruchten, Zuivel, Noten/Zaden, Kruiden, Oliën/Sauzen). Neem alleen ingrediënten op die passen bij de dieetregels en verkrijgbaar zijn bij de opgegeven supermarkt. Maak de lijst zo compleet mogelijk.
+2. Sla de lijst op als `ingredienten-<maaltijdtype>.md` (bv. `ingredienten-diner.md`, `ingredienten-ontbijt.md`) in de projectroot.
+2. Vraag de gebruiker expliciet om aanpassingen: items toevoegen, verwijderen of vervangen - of geef de gebruiker de optie om de lijst met hand aan te passen in een teksteditor.
+3. Als de gebruiker de lijst niet zelf heeft aangepast, verwerk dan de aanpassingen en sla de definitieve lijst op.
 4. Herhaal dit pas bij een expliciet verzoek van de gebruiker om de lijst te herzien — niet bij elk nieuw recept.
 
 ### Fase 4 — Recepten genereren
@@ -113,7 +114,7 @@ N. ...
 Sla elk recept op als `XX-kebab-case-naam.md` in `recepten-<maaltijdtype>/` (oplopend volgnummer, aansluitend op het hoogste bestaande nummer), en voeg het toe aan `recepten-<maaltijdtype>/00-overzicht.md` in de vorm:
 
 ```
-| XX | [Naam](bestandsnaam.md) | [Labels] |
+| XX | [Naam](bestandsnaam.md) | [Hoofdeiwit] | [Dieet info] | [Labels]
 ```
 
 ### Fase 5 — Kwaliteitscheck per recept
